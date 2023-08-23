@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 750px; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#carouselExample {
+    max-height: 650px; 
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.carousel-title {
+    padding: 10px;
+}
+
+.descricao {
+    display: none;
+}
